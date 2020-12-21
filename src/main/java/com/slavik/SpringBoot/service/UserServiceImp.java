@@ -46,7 +46,6 @@ public class UserServiceImp implements UserService {
     }
 
     @Transactional
-
     @Override
     public Long getIdByLogin(String login) {
         User user = userDao.getUserByLogin(login);
