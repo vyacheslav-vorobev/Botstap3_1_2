@@ -23,7 +23,7 @@ public class ControllerAdmin {
     private RoleService roleService;
 
     @Autowired
-    UserService userService;
+    private UserService userService;
 
     @GetMapping
     public String viewsUsers(Authentication authentication, Model model){
